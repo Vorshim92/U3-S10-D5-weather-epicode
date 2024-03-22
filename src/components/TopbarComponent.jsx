@@ -15,7 +15,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-md">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              <img src="/assets/imgs/logo.jpeg" alt="" width="80px" height="80px" />
+              <img src="/assets/imgs/logo.png" alt="" width="80px" height="80px" />
             </a>
             <div className="search-icon" onClick={handleSearchClick}>
               <icons.Search />
