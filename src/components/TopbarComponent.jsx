@@ -1,25 +1,31 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row, Col, InputGroup, FormControl, Button } from "react-bootstrap";
-import { BsSearch } from "react-icons/bs";
+import { Row, Col, Dropdown } from "react-bootstrap";
+import * as icons from "react-bootstrap-icons";
 
 const Navbar = () => {
+  const [isSearchBarVisible, setIsSearchBarVisible] = useState(false);
+
+  const handleSearchClick = () => {
+    setIsSearchBarVisible(!isSearchBarVisible);
+  };
+
   return (
     <>
-      <Row className="justify-content-between align-items-center">
-        <Col xs="auto">
-          <h3>Nome della città</h3>
-        </Col>
-        <Col xs="auto">
-          <InputGroup>
-            <FormControl placeholder="Cerca..." aria-label="Cerca" aria-describedby="basic-addon2" />
-            <InputGroup.Append>
-              <Button variant="outline-secondary">
-                <BsSearch />
-              </Button>
-            </InputGroup.Append>
-          </InputGroup>
-        </Col>
-      </Row>
+      <header>
+        <nav className="navbar navbar-expand-md">
+          <div className="container-fluid">
+            <a className="navbar-brand" href="#">
+              <img src="/assets/imgs/logo.jpeg" alt="" width="80px" height="80px" />
+            </a>
+            <div className="search-icon" onClick={handleSearchClick}>
+              <icons.Search />
+            </div>
+            <div className={`searchbar div_box_research ${isSearchBarVisible ? "" : "d-none"}`}>
+              <input id="searchBar" type="text" className="box_research" placeholder="Cerca una città..." />
+            </div>
+          </div>
+        </nav>
+      </header>
     </>
   );
 };
