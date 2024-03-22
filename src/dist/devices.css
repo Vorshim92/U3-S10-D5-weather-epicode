@@ -50,7 +50,7 @@
 
 .device-iphone-14-pro .device-stripe::after,
 .device-iphone-14-pro .device-stripe::before {
-  border: solid rgba(1, 1, 1, 0.25);
+  border: solid rgba(1, 1, 1, .25);
   border-width: 0 7px;
   content: "";
   height: 7px;
@@ -98,7 +98,7 @@
 .device-iphone-14-pro .device-sensors::before {
   background: radial-gradient(farthest-corner at 20% 20%, #6074bf 0, transparent 40%), radial-gradient(farthest-corner at 80% 80%, #513785 0, #24555e 20%, transparent 50%);
   border-radius: 50%;
-  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, .05);
   height: 9px;
   left: 50%;
   margin-left: 36px;
@@ -147,7 +147,7 @@
 
 .device-iphone-14-pro .device-home::after,
 .device-iphone-14-pro .device-home::before {
-  border: solid rgba(1, 1, 1, 0.25);
+  border: solid rgba(1, 1, 1, .25);
   border-width: 6px 0;
   content: "";
   height: 6px;
@@ -243,7 +243,7 @@
 
 .device-iphone-14 .device-stripe::after,
 .device-iphone-14 .device-stripe::before {
-  border: solid rgba(1, 1, 1, 0.25);
+  border: solid rgba(1, 1, 1, .25);
   border-width: 0 7px;
   content: "";
   height: 7px;
@@ -313,7 +313,7 @@
 .device-iphone-14 .device-sensors::before {
   background: radial-gradient(farthest-corner at 20% 20%, #6074bf 0, transparent 40%), radial-gradient(farthest-corner at 80% 80%, #513785 0, #24555e 20%, transparent 50%);
   border-radius: 50%;
-  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, .05);
   height: 9px;
   left: 50%;
   margin-left: -60px;
@@ -362,7 +362,7 @@
 
 .device-iphone-14 .device-home::after,
 .device-iphone-14 .device-home::before {
-  border: solid rgba(1, 1, 1, 0.25);
+  border: solid rgba(1, 1, 1, .25);
   border-width: 6px 0;
   content: "";
   height: 6px;
@@ -475,7 +475,7 @@
 
 .device-iphone-x .device-stripe::after,
 .device-iphone-x .device-stripe::before {
-  border: solid rgba(1, 1, 1, 0.25);
+  border: solid rgba(1, 1, 1, .25);
   border-width: 0 7px;
   content: "";
   height: 7px;
@@ -543,7 +543,7 @@
 .device-iphone-x .device-sensors::before {
   background: radial-gradient(farthest-corner at 20% 20%, #6074bf 0, transparent 40%), radial-gradient(farthest-corner at 80% 80%, #513785 0, #24555e 20%, transparent 50%);
   border-radius: 50%;
-  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, .05);
   height: 10px;
   left: 50%;
   margin-left: 42px;
@@ -610,7 +610,7 @@
 
 .device-iphone-8 .device-stripe::after,
 .device-iphone-8 .device-stripe::before {
-  border: solid rgba(51, 51, 51, 0.15);
+  border: solid rgba(51, 51, 51, .15);
   border-width: 0 7px;
   content: "";
   height: 6px;
@@ -735,7 +735,7 @@
 
 .device-iphone-8.device-spacegray .device-stripe::after,
 .device-iphone-8.device-spacegray .device-stripe::before {
-  border-color: rgba(204, 204, 204, 0.35);
+  border-color: rgba(204, 204, 204, .35);
 }
 
 .device-iphone-8.device-spacegray .device-btns,
@@ -792,7 +792,7 @@
 }
 
 .device-the-iphone .device-sensors::before {
-  background: linear-gradient(to bottom, #272727 50%, rgba(220, 220, 220, 0.25) 50%, darkgray);
+  background: linear-gradient(to bottom, #272727 50%, rgba(220, 220, 220, .25) 50%, darkgray);
   border-radius: 5px;
   content: "";
   height: 10px;
@@ -847,7 +847,7 @@
 }
 
 .device-the-iphone .device-home {
-  background: radial-gradient(circle at top center, #010101 70%, rgba(220, 220, 220, 0.25) 70%, darkgray);
+  background: radial-gradient(circle at top center, #010101 70%, rgba(220, 220, 220, .25) 70%, darkgray);
   border: 1px solid #292929;
   border-radius: 50%;
   bottom: 28px;
@@ -964,7 +964,7 @@
 .device-google-pixel-6-pro .device-sensors::before {
   background: radial-gradient(farthest-corner at 20% 20%, #6074bf 0, transparent 40%), radial-gradient(farthest-corner at 80% 80%, #513785 0, #24555e 20%, transparent 50%);
   border-radius: 50%;
-  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, .05);
   height: 8px;
   left: 7px;
   top: 7px;
@@ -1138,7 +1138,7 @@
 }
 
 .device-google-pixel .device-stripe {
-  border-top: 6px solid rgba(51, 51, 51, 0.15);
+  border-top: 6px solid rgba(51, 51, 51, .15);
   bottom: 0;
   left: 254px;
   position: absolute;
@@ -1148,7 +1148,7 @@
 
 .device-google-pixel .device-stripe::after,
 .device-google-pixel .device-stripe::before {
-  border: solid rgba(51, 51, 51, 0.15);
+  border: solid rgba(51, 51, 51, .15);
   border-width: 0 6px;
   content: "";
   height: 10px;
@@ -1228,7 +1228,7 @@
 .device-google-pixel.device-black .device-stripe,
 .device-google-pixel.device-black .device-stripe::after,
 .device-google-pixel.device-black .device-stripe::before {
-  border-color: rgba(13, 13, 13, 0.35);
+  border-color: rgba(13, 13, 13, .35);
 }
 
 .device-google-pixel.device-black .device-sensors {
@@ -1288,7 +1288,7 @@
 
 .device-galaxy-s8 .device-stripe::after,
 .device-galaxy-s8 .device-stripe::before {
-  border: solid rgba(51, 51, 51, 0.15);
+  border: solid rgba(51, 51, 51, .15);
   border-width: 5px 0;
   content: "";
   height: 828px;
@@ -1381,7 +1381,7 @@
 
 .device-galaxy-s8.device-blue .device-stripe::after,
 .device-galaxy-s8.device-blue .device-stripe::before {
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: rgba(255, 255, 255, .35);
 }
 
 .device-galaxy-s8.device-blue .device-btns,
@@ -1593,7 +1593,7 @@
 
 .device-macbook-pro-2018 .device-power::before {
   background: #a0a3a7;
-  border-radius: 0 0 180px 180px/0 0 12px 12px;
+  border-radius: 0 0 180px 180px/ 0 0 12px 12px;
   box-shadow: inset 0 -2px 6px 0 #474a4d;
   height: 12px;
   left: -4px;
@@ -1700,7 +1700,7 @@
 
 .device-macbook .device-power::before {
   background: #a0a3a7;
-  border-radius: 0 0 180px 180px/0 0 10px 10px;
+  border-radius: 0 0 180px 180px/ 0 0 10px 10px;
   box-shadow: inset 0 -2px 6px 0 #474a4d;
   height: 10px;
   left: -4px;
@@ -2272,7 +2272,7 @@
 .device-ipad-pro .device-sensors::before {
   background: radial-gradient(farthest-corner at 20% 20%, #6074bf 0, transparent 40%), radial-gradient(farthest-corner at 80% 80%, #513785 0, #24555e 20%, transparent 50%);
   border-radius: 50%;
-  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, .05);
   height: 6px;
   left: 50%;
   margin-left: -3px;
@@ -2423,7 +2423,7 @@
 .device-apple-watch-ultra .device-frame {
   background: #0d0d0d;
   border-radius: 92px;
-  box-shadow: inset 0 0 12px 1px rgba(13, 13, 13, 0.75), inset 0 0 0 6px #d6ccc2, inset 0 0 0 12px #d6ccc2;
+  box-shadow: inset 0 0 12px 1px rgba(13, 13, 13, .75), inset 0 0 0 6px #d6ccc2, inset 0 0 0 12px #d6ccc2;
   height: 380px;
   margin: 0 20px;
   padding: 38px;
@@ -2434,7 +2434,7 @@
 .device-apple-watch-ultra .device-frame::before {
   border: 1px solid #f5f2f0;
   border-radius: 80px;
-  box-shadow: 0 0 6px rgba(13, 13, 13, 0.2), inset 0 0 4px 1px #f5f2f0, inset 0 0 0 10px #d6ccc2;
+  box-shadow: 0 0 6px rgba(13, 13, 13, .2), inset 0 0 4px 1px #f5f2f0, inset 0 0 0 10px #d6ccc2;
   content: "";
   height: 356px;
   left: 12px;
@@ -2452,8 +2452,8 @@
 
 .device-apple-watch-ultra .device-header {
   background: radial-gradient(circle at center, #d6ccc2 50%, #ebe6e1 85%, #a38c76 100%);
-  border-radius: 4px 4px 4px 4px/8px 4px 4px 8px;
-  box-shadow: inset 0 0 16px 1px rgba(13, 13, 13, 0.5), -8px 0 4px rgba(13, 13, 13, 0.2), inset 4px 0 4px rgba(13, 13, 13, 0.2);
+  border-radius: 4px 4px 4px 4px / 8px 4px 4px 8px;
+  box-shadow: inset 0 0 16px 1px rgba(13, 13, 13, .5), -8px 0 4px rgba(13, 13, 13, .2), inset 4px 0 4px rgba(13, 13, 13, .2);
   height: 214px;
   margin-top: -107px;
   position: absolute;
@@ -2464,8 +2464,8 @@
 }
 
 .device-apple-watch-ultra .device-header::before {
-  border-radius: 8px 4px 4px 8px/32px 4px 4px 32px;
-  box-shadow: -10px 0 8px rgba(13, 13, 13, 0.2);
+  border-radius: 8px 4px 4px 8px / 32px 4px 4px 32px;
+  box-shadow: -10px 0 8px rgba(13, 13, 13, .2);
   content: "";
   height: 194px;
   margin-top: -97px;
@@ -2478,7 +2478,7 @@
 .device-apple-watch-ultra .device-btns {
   background: #d6ccc2;
   border-left: 1px solid #4c4033;
-  border-radius: 8px 6px 6px 8px/20px 6px 6px 20px;
+  border-radius: 8px 6px 6px 8px / 20px 6px 6px 20px;
   box-shadow: inset 8px 0 8px 0 #5c4d3e, inset -2px 0 6px #a38c76;
   height: 72px;
   position: absolute;
@@ -2490,7 +2490,7 @@
 
 .device-apple-watch-ultra .device-btns::after {
   background: #d6ccc2;
-  border-radius: 2px 4px 4px 2px/20px 8px 8px 20px;
+  border-radius: 2px 4px 4px 2px / 20px 8px 8px 20px;
   box-shadow: inset -2px 0 2px 0 #6b5948, inset -6px 0 18px #a38c76;
   content: "";
   height: 78px;
@@ -2503,7 +2503,7 @@
 .device-apple-watch-ultra .device-btns::before {
   background: #d6ccc2;
   border-radius: 20%;
-  box-shadow: 0 -30px rgba(163, 140, 118, 0.5), 0 -27px #d6ccc2, 0 -25px #89735c, 0 -21px rgba(163, 140, 118, 0.5), 0 -18px #d6ccc2, 0 -16px #89735c, 0 -12px rgba(163, 140, 118, 0.5), 0 -9px #d6ccc2, 0 -7px #89735c, 0 -3px rgba(163, 140, 118, 0.5), 0 0 #d6ccc2, 0 2px #89735c, 0 6px rgba(163, 140, 118, 0.5), 0 9px #d6ccc2, 0 11px #89735c, 0 15px rgba(163, 140, 118, 0.5), 0 18px #d6ccc2, 0 20px #89735c, 0 24px rgba(163, 140, 118, 0.5), 0 27px #d6ccc2, 0 29px #89735c;
+  box-shadow: 0 -30px rgba(163, 140, 118, .5), 0 -27px #d6ccc2, 0 -25px #89735c, 0 -21px rgba(163, 140, 118, .5), 0 -18px #d6ccc2, 0 -16px #89735c, 0 -12px rgba(163, 140, 118, .5), 0 -9px #d6ccc2, 0 -7px #89735c, 0 -3px rgba(163, 140, 118, .5), 0 0 #d6ccc2, 0 2px #89735c, 0 6px rgba(163, 140, 118, .5), 0 9px #d6ccc2, 0 11px #89735c, 0 15px rgba(163, 140, 118, .5), 0 18px #d6ccc2, 0 20px #89735c, 0 24px rgba(163, 140, 118, .5), 0 27px #d6ccc2, 0 29px #89735c;
   content: "";
   height: 3px;
   margin-top: -2px;
@@ -2528,7 +2528,7 @@
 
 .device-apple-watch-ultra .device-power {
   background: #d6ccc2;
-  border-radius: 2px 4px 4px 2px/2px 8px 8px 2px;
+  border-radius: 2px 4px 4px 2px / 2px 8px 8px 2px;
   box-shadow: inset 0 0 2px 1px #a38c76;
   height: 72px;
   position: absolute;
@@ -2540,7 +2540,7 @@
 .device-apple-watch-ultra .device-home {
   background: #f18f42;
   border: 1px solid #a7500c;
-  border-radius: 2px 4px 4px 2px/2px 8px 8px 2px;
+  border-radius: 2px 4px 4px 2px / 2px 8px 8px 2px;
   box-shadow: inset 0 0 1px 1px #ef812a;
   height: 106px;
   left: 19px;
@@ -2569,7 +2569,7 @@
 .device-apple-watch-s8 .device-frame::before {
   border: 1px solid #0d0d0d;
   border-radius: 80px;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.5), inset 0 0 12px 2px rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 12px rgba(255, 255, 255, .5), inset 0 0 12px 2px rgba(255, 255, 255, .75);
   content: "";
   height: 356px;
   left: 12px;
@@ -2588,8 +2588,8 @@
 .device-apple-watch-s8 .device-btns {
   background: #606c78;
   border-left: 1px solid black;
-  border-radius: 8px 6px 6px 8px/20px 6px 6px 20px;
-  box-shadow: inset 8px 0 8px 0 #1c1f23, inset -2px 0 6px #272c31, -4px 0 8px rgba(13, 13, 13, 0.25);
+  border-radius: 8px 6px 6px 8px / 20px 6px 6px 20px;
+  box-shadow: inset 8px 0 8px 0 #1c1f23, inset -2px 0 6px #272c31, -4px 0 8px rgba(13, 13, 13, .25);
   height: 72px;
   position: absolute;
   right: 10px;
@@ -2600,7 +2600,7 @@
 
 .device-apple-watch-s8 .device-btns::after {
   background: #272c31;
-  border-radius: 2px 4px 4px 2px/20px 8px 8px 20px;
+  border-radius: 2px 4px 4px 2px / 20px 8px 8px 20px;
   box-shadow: inset -2px 0 2px 0 black, inset -6px 0 18px #272c31;
   content: "";
   height: 72px;
@@ -2613,7 +2613,7 @@
 .device-apple-watch-s8 .device-btns::before {
   background: #272c31;
   border-radius: 20%;
-  box-shadow: 0 -30px rgba(62, 70, 77, 0.75), 0 -27px #272c31, 0 -25px black, 0 -21px rgba(62, 70, 77, 0.75), 0 -18px #272c31, 0 -16px black, 0 -12px rgba(62, 70, 77, 0.75), 0 -9px #272c31, 0 -7px black, 0 -3px rgba(62, 70, 77, 0.75), 0 0 #272c31, 0 2px black, 0 6px rgba(62, 70, 77, 0.75), 0 9px #272c31, 0 11px black, 0 15px rgba(62, 70, 77, 0.75), 0 18px #272c31, 0 20px black, 0 24px rgba(62, 70, 77, 0.75), 0 27px #272c31, 0 29px black;
+  box-shadow: 0 -30px rgba(62, 70, 77, .75), 0 -27px #272c31, 0 -25px black, 0 -21px rgba(62, 70, 77, .75), 0 -18px #272c31, 0 -16px black, 0 -12px rgba(62, 70, 77, .75), 0 -9px #272c31, 0 -7px black, 0 -3px rgba(62, 70, 77, .75), 0 0 #272c31, 0 2px black, 0 6px rgba(62, 70, 77, .75), 0 9px #272c31, 0 11px black, 0 15px rgba(62, 70, 77, .75), 0 18px #272c31, 0 20px black, 0 24px rgba(62, 70, 77, .75), 0 27px #272c31, 0 29px black;
   content: "";
   height: 3px;
   margin-top: -2px;
@@ -2626,7 +2626,7 @@
 
 .device-apple-watch-s8 .device-power {
   background: #272c31;
-  border-radius: 2px 4px 4px 2px/2px 8px 8px 2px;
+  border-radius: 2px 4px 4px 2px / 2px 8px 8px 2px;
   box-shadow: inset 0 0 2px 1px #101315;
   height: 72px;
   position: absolute;
@@ -2652,7 +2652,7 @@
 }
 
 .device-homepod .device-stripe {
-  background: repeating-linear-gradient(45deg, rgba(141, 143, 149, 0.35) 0, rgba(141, 143, 149, 0.35) 2px, transparent 2px, transparent 6px), repeating-linear-gradient(135deg, rgba(141, 143, 149, 0.35) 0, rgba(141, 143, 149, 0.35) 2px, transparent 2px, transparent 6px), repeating-linear-gradient(45deg, transparent 0, transparent 2px, rgba(29, 30, 32, 0.35) 2px, rgba(29, 30, 32, 0.35) 4px, transparent 4px, transparent 6px), repeating-linear-gradient(135deg, transparent 0, transparent 2px, rgba(29, 30, 32, 0.35) 2px, rgba(29, 30, 32, 0.35) 4px, transparent 4px, transparent 6px);
+  background: repeating-linear-gradient(45deg, rgba(141, 143, 149, .35) 0, rgba(141, 143, 149, .35) 2px, transparent 2px, transparent 6px), repeating-linear-gradient(135deg, rgba(141, 143, 149, .35) 0, rgba(141, 143, 149, .35) 2px, transparent 2px, transparent 6px), repeating-linear-gradient(45deg, transparent 0, transparent 2px, rgba(29, 30, 32, .35) 2px, rgba(29, 30, 32, .35) 4px, transparent 4px, transparent 6px), repeating-linear-gradient(135deg, transparent 0, transparent 2px, rgba(29, 30, 32, .35) 2px, rgba(29, 30, 32, .35) 4px, transparent 4px, transparent 6px);
   border-radius: 80px;
   box-shadow: inset 0 0 0 2px #36373a, inset 0 0 40px 1px #1d1e20, inset 0 12px 24px 1px #9b9ca1, inset 0 -12px 24px 1px #050505;
   height: 385px;
@@ -2691,7 +2691,7 @@
 }
 
 .device-homepod .device-home::after {
-  border-radius: 0 0 10% 10%/0 0 8px 8px;
+  border-radius: 0 0 10% 10% / 0 0 8px 8px;
   bottom: 0;
   box-shadow: inset 0 0 4px 0 #111112;
   height: 5px;
@@ -2765,10 +2765,3 @@
   position: absolute;
   width: 30px;
 }
-
-.device-iphone-14 .device-frame {
-  background-color: #7cbbe7;
-  border: 14px solid #101315;
-}
-
-/*# sourceMappingURL=App.css.map */
