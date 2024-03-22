@@ -14628,14 +14628,31 @@ body,
   border: 14px solid #101315;
 }
 
+.meteo-app {
+  overflow-y: scroll;
+  height: 768px;
+}
+.meteo-app::-webkit-scrollbar {
+  display: none;
+}
+
 .search-icon {
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
+
 .card-weather {
   border-radius: 30px;
   padding: 15px;
   margin-bottom: 10px;
+}
+.card-weather svg {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.weather-forecast svg {
+  font-size: 1rem;
 }
 
 .div_box_research .box_research {

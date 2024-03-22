@@ -99,12 +99,122 @@ const City = ({ query }) => {
         </Row>
       </Card>
       <Card className="card-weather">
+        {/* EVENTUALE ITEM MAP PER I GIORNI DELLA SETTIMANA (SE SOLO L'API FOSSE MEZZA DECENTE :D) */}
+        <Row className="weather-forecast ">
+          <Col xs={2} className="text-center">
+            {weatherData.day}
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <icons.Moisture />
+            <p className="ml-2">{weatherData.humidity}%</p>
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <icons.Wind /> {weatherData.wind} m/s
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <img src={weatherData.icon} alt="Weather Icon" width="50px" height="50px" />
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center text-center">
+            {weatherData.temperature}°C / {weatherData.temperature}°C
+          </Col>
+        </Row>
         <Row className="weather-forecast">
           <Col xs={2} className="text-center">
             {weatherData.day}
           </Col>
           <Col xs={2} className="d-flex justify-content-center">
-            <icons.CloudRain /> {weatherData.humidity}%
+            <icons.Moisture />
+            <p className="ml-2">{weatherData.humidity}%</p>
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <icons.Wind /> {weatherData.wind} m/s
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <img src={weatherData.icon} alt="Weather Icon" width="50px" height="50px" />
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center text-center">
+            {weatherData.temperature}°C / {weatherData.temperature}°C
+          </Col>
+        </Row>
+        <Row className="weather-forecast">
+          <Col xs={2} className="text-center">
+            {weatherData.day}
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <icons.Moisture />
+            <p className="ml-2">{weatherData.humidity}%</p>
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <icons.Wind /> {weatherData.wind} m/s
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <img src={weatherData.icon} alt="Weather Icon" width="50px" height="50px" />
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center text-center">
+            {weatherData.temperature}°C / {weatherData.temperature}°C
+          </Col>
+        </Row>
+        <Row className="weather-forecast">
+          <Col xs={2} className="text-center">
+            {weatherData.day}
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <icons.Moisture />
+            <p className="ml-2">{weatherData.humidity}%</p>
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <icons.Wind /> {weatherData.wind} m/s
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <img src={weatherData.icon} alt="Weather Icon" width="50px" height="50px" />
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center text-center">
+            {weatherData.temperature}°C / {weatherData.temperature}°C
+          </Col>
+        </Row>
+        <Row className="weather-forecast">
+          <Col xs={2} className="text-center">
+            {weatherData.day}
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <icons.Moisture />
+            <p className="ml-2">{weatherData.humidity}%</p>
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <icons.Wind /> {weatherData.wind} m/s
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <img src={weatherData.icon} alt="Weather Icon" width="50px" height="50px" />
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center text-center">
+            {weatherData.temperature}°C / {weatherData.temperature}°C
+          </Col>
+        </Row>
+        <Row className="weather-forecast">
+          <Col xs={2} className="text-center">
+            {weatherData.day}
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <icons.Moisture />
+            <p className="ml-2">{weatherData.humidity}%</p>
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <icons.Wind /> {weatherData.wind} m/s
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <img src={weatherData.icon} alt="Weather Icon" width="50px" height="50px" />
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center text-center">
+            {weatherData.temperature}°C / {weatherData.temperature}°C
+          </Col>
+        </Row>
+        <Row className="weather-forecast">
+          <Col xs={2} className="text-center">
+            {weatherData.day}
+          </Col>
+          <Col xs={2} className="d-flex justify-content-center">
+            <icons.Moisture />
+            <p className="ml-2">{weatherData.humidity}%</p>
           </Col>
           <Col xs={2} className="d-flex justify-content-center">
             <icons.Wind /> {weatherData.wind} m/s
