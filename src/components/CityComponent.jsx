@@ -68,7 +68,7 @@ const City = ({ query }) => {
           </div>
         </Col>
         <Col xs={6} md={6} className="d-flex justify-content-center">
-          <div className="temperature">
+          <div className="temperature text">
             <h1>{weatherData.temperature}°C</h1>
           </div>
         </Col>

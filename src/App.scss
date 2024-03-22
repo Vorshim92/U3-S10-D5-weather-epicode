@@ -1,6 +1,16 @@
 @import "./dist/devices.scss";
 @import "./bootstrap_override.scss";
 
+body {
+  background-color: #323e47;
+}
+html,
+body,
+#root,
+.container-fluid {
+  height: 100%;
+}
+
 .device-iphone-14 .device-frame {
   background-color: #7cbbe7;
   border: 14px solid #101315;

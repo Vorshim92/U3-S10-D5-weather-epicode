@@ -356,9 +356,10 @@
   border-radius: 2px;
   height: 100px;
   position: absolute;
-  right: -2px;
+  right: -3px;
   top: 200px;
   width: 3px;
+  cursor: pointer;
 }
 
 .device-iphone-14 .device-home::after,
@@ -14606,6 +14607,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: #323e47;
+}
+
+html,
+body,
+#root,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+  height: 100%;
+}
+
 .device-iphone-14 .device-frame {
   background-color: #7cbbe7;
   border: 14px solid #101315;

@@ -4,7 +4,7 @@ const PhoneMockup = ({ children }) => {
   return (
     <div className="device device-iphone-14">
       <div className="device-frame">
-        <div style={{ overflow: "hidden", borderRadius: "30px" }}>{children}</div>
+        <div>{children}</div>
       </div>
       <div className="device-stripe" />
       <div className="device-header" />
