@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Row, Col, Dropdown, Card } from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 import * as icons from "react-bootstrap-icons";
 
-const City = () => {
+const City = ({ query }) => {
   const [weatherData, setWeatherData] = useState({
     city: "",
     day: "",
@@ -17,7 +17,7 @@ const City = () => {
   useEffect(() => {
     const fetchWeatherData = async () => {
       try {
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=Palmi&units=metric&appid=6fd44c7c8e702a70c2533009b88694c8`);
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${query}&units=metric&appid=6fd44c7c8e702a70c2533009b88694c8`);
         const data = await response.json();
 
         setWeatherData({
@@ -36,7 +36,7 @@ const City = () => {
     };
 
     fetchWeatherData();
-  }, []);
+  }, [query]);
 
   const getDay = (dt) => {
     const days = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];

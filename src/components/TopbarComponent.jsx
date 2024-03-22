@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { Row, Col, Dropdown } from "react-bootstrap";
+import React, { useState } from "react";
 import * as icons from "react-bootstrap-icons";
 
-const Navbar = () => {
+const Navbar = ({ onSearchChange }) => {
   const [isSearchBarVisible, setIsSearchBarVisible] = useState(false);
 
   const handleSearchClick = () => {
@@ -21,7 +20,7 @@ const Navbar = () => {
               <icons.Search />
             </div>
             <div className={`searchbar div_box_research ${isSearchBarVisible ? "" : "d-none"}`}>
-              <input id="searchBar" type="text" className="box_research" placeholder="Cerca una città..." />
+              <input id="searchBar" type="text" className="box_research" placeholder="Cerca una città..." onChange={onSearchChange} />
             </div>
           </div>
         </nav>
